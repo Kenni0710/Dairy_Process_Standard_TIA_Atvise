@@ -1,0 +1,24 @@
+TYPE "UDT_SequenceData"
+   STRUCT
+      Status : Struct
+         State : Int; // S88 State
+         StepNumber : Int;
+         StepDescription : String[50];
+         WaitCondition : String[50];
+      End_Struct;
+      Timer : Struct
+         StepTimeSP : Time;
+         TimeRemaining : Time;
+         TimerActive : Bool;
+         TimerDone : Bool;
+         Progress_Pct : Real;
+      End_Struct;
+      CMD : Struct
+         Start : Bool;
+         Stop : Bool;
+         Hold : Bool;
+         Resume : Bool;
+         StepOver : Bool;
+      End_Struct;
+   END_STRUCT
+END_TYPE
