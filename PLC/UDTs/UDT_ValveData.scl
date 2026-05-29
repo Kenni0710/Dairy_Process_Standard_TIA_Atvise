@@ -1,0 +1,30 @@
+TYPE "UDT_ValveData"
+   STRUCT
+      Header : Struct
+         UnitID : DInt;
+         UnitTag : String[20];
+         ObjectTag : String[10];
+      End_Struct;
+      Config : Struct
+         ValveType : Int; // 0=OnOff, 1=Butterfly, 2=Mixproof
+         FeedbackType : Int;
+         FaultTimer : Time := T#2s;
+      End_Struct;
+      CMD : Struct
+         Activate : Bool;
+         Deactivate : Bool;
+      End_Struct;
+      HMI : Struct
+         OpCmd_Activate : Bool;
+         OpCmd_Deactivate : Bool;
+         OpCmd_FaultAck : Bool;
+      End_Struct;
+      Status : Struct
+         Opened : Bool;
+         Closed : Bool;
+         Moving : Bool;
+         InManual : Bool;
+         Fault : Bool;
+      End_Struct;
+   END_STRUCT
+END_TYPE
