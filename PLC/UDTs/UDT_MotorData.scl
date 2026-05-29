@@ -1,0 +1,20 @@
+TYPE "UDT_MotorData"
+   STRUCT
+      Config : Struct
+         MotorType : Int; // 0=DOL, 1=Siemens, 2=Lenze, 3=Danfoss, 4=Schneider
+         NominalSpeed : Real := 1500.0;
+      End_Struct;
+      HMI : Struct
+         OpCmd_Start : Bool;
+         OpCmd_Stop : Bool;
+         OpValue_SpeedSetpoint : Real;
+         OpCmd_ManualMode : Bool;
+      End_Struct;
+      Status : Struct
+         Running : Bool;
+         ActualSpeed : Real;
+         ActualCurrent : Real;
+         VFD_FaultCode : Word;
+      End_Struct;
+   END_STRUCT
+END_TYPE
