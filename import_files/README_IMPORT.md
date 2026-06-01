@@ -1,1 +1,20 @@
-IyBJbXBvcnQgSW5zdHJ1Y3Rpb25zIGZvciBLRUEgQ29uc3VsdCBTdGFuZGFyZAoKIyMgMS4gQXR2aXNlIFNDQURBCjEuIE9wZW4gKiphdHZpc2UgQnVpbGRlciosLgoyLiBHbyB0byAqKkZpbGUgLT4gSW1wb3J0IC0+IFhNTCoqLgozLiBTZWxlY3QgYGF0dmlzZV9kYXRhc291cmNlX1M3X1BMQy54bWxgLgo0LiBUaGlzIHdpbGwgY3JlYXRlIGEgZGF0YXNvdXJjZSBuYW1lZCBgUExDX1M3XzE1MDBgIHVuZGVyIGBBR0VOVC5PQkpFQ1RTYC4KNS4gRW5zdXJlIHRoZSBQTEMgYXQgYDE5Mi4xNjguMTAwLjcxYCBoYXMgT1BDIFVBIFNlcnZlciBlbmFibGVkIGFuZCBhbGxvd3MgYW5vbnltb3VzIGFjY2VzcyAob3IgdXBkYXRlIHBhcmFtZXRlcnMpLgoKIyMgMi4gVElBIFBvcnRhbCAoU2llbWVucykKMS4gT3BlbiB5b3VyIFRJQSBQb3J0YWwgcHJvamVjdC4KMi4gR28gdG8gKipQTEMgVGFncyAtPiBJbXBvcnQqKi4KMy4gU2VsZWN0IGBUSUFfUG9ydGFsX1RhZ3NfU2FtcGxlLmNzdmAuCjQuIEVuc3VyZSB5b3VyIERhdGEgQmxvY2sgKERCMTAwKSBtYXRjaGVzIHRoZSBhZGRyZXNzZXMgb3IgYWRqdXN0IHRoZSBDU1YuCjUuIEluICoqT1BDIFVBIFNldHRpbmdzKiosIGVuc3VyZSB0aGUgdGFncyBhcmUgbWFya2VkIGFzICJBY2Nlc3NpYmxlIGZyb20gSE1JL09QQyBVQSIuCgojIyAzLiBDb21tdW5pY2F0aW9uCi0gUG9ydDogYDQ4NDBgIChEZWZhdWx0KQotIFByb3RvY29sOiBgb3BjLnRjcGAKLSBQTEMgSVA6IGAxOTIuMTY4LjEwMC43MWAK
+# Import Instructions for KEA Consult Standard
+
+## 1. Atvise SCADA
+1. Open **atvise Builder**.
+2. Go to **File -> Import -> XML**.
+3. Select `atvise_datasource_S7_PLC.xml`.
+4. This will create a datasource named `PLC_S7_1500` under the **Data sources** folder (`AGENT.OBJECTS.Data sources`).
+5. Ensure the PLC at `192.168.100.71` has OPC UA Server enabled and allows anonymous access (or update parameters).
+
+## 2. TIA Portal (Siemens)
+1. Open your TIA Portal project.
+2. Go to **PLC Tags -> Import**.
+3. Select `TIA_Portal_Tags_Sample.csv`.
+4. Ensure your Data Block (DB100) matches the addresses or adjust the CSV.
+5. In **OPC UA Settings**, ensure the tags are marked as "Accessible from HMI/OPC UA".
+
+## 3. Communication
+- Port: `4840` (Default)
+- Protocol: `opc.tcp`
+- PLC IP: `192.168.100.71`
