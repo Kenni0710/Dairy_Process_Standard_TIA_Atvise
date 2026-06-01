@@ -1,1 +1,47 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiID8+CjxVQU5vZGVTZXQgeG1sbnM9Imh0dHA6Ly9vcGNmb3VuZGF0aW9uLm9yZy9VQS8yMDExLzAzL1VBTm9kZVNldC54c2QiIHhtbG5zOnVheD0iaHR0cDovL29wY2ZvdW5kYXRpb24ub3JnL1VBLzIwMDgvMDIvVHlwZXMueHNkIj4KICAgIDxFeHRlbnNpb25zPgogICAgICAgIDxhdHZpc2UgVmVyc2lvbj0iMy4xNCIvPgogICAgPC9FeHRlbnNpb25zPgogICAgPE5hbWVzcGFjZVVyaXM+CiAgICAgICAgPFVyaT5odHRwOi8vd3d3LmF0dmlzZS5jb20vYXRTZXJ2ZXIvVUEvPC9Vcmk+CiAgICA8L05hbWVzcGFjZVVyaXM+CiAgICA8QWxpYXNlcz4KICAgICAgICA8QWxpYXMgQWxpYXM9IkJvb2xlYW4iPmk9MTwvQWxpYXM+CiAgICAgICAgPEFsaWFzIEFsaWFzPSJTdHJpbmciPmk9MTI8L0FsaWFzPgogICAgICAgIDxBbGlhcyBBbGlhcz0iSGFzQ29tcG9uZW50Ij5pPTQ3PC9BbGlhcz4KICAgICAgICA8QWxpYXMgQWxpYXM9Ikhhc1Byb3BlcnR5Ij5pPTQ2PC9BbGlhcz4KICAgICAgICA8QWxpYXMgQWxpYXM9Ikhhc1R5cGVEZWZpbml0aW9uIj5pPTQwPC9BbGlhcz4KICAgICAgICA8QWxpYXMgQWxpYXM9IlByb3BlcnR5VHlwZSI+aT02ODwvQWxpYXM+CiAgICA8L0FsaWFzZXM+CiAgICA8VUFPYmplY3QgTm9kZUlkPSJucz0xO3M9QUdFTlQuREFUQVNPVVJDRVMuUExDX1M3XzE1MDAiIEJyb3dzZU5hbWU9IjE6UExDX1M3XzE1MDAiPgogICAgICAgIDxEaXNwbGF5TmFtZSBMb2NhbGU9ImVuIj5QTENfUzdfMTUwMDwvRGlzcGxheU5hbWU+CiAgICAgICAgPERlc2NyaXB0aW9uIExvY2FsZT0iZW4iPk9QQyBVQSBDb25uZWN0aW9uIHRvIFNpZW1lbnMgUExDIGF0IDE5Mi4xNjguMTAwLjcxPC9EZXNjcmlwdGlvbj4KICAgICAgICA8UmVmZXJlbmNlcz4KICAgICAgICAgICAgPFJlZmVyZW5jZSBSZWZlcmVuY2VUeXBlPSJIYXNDb21wb25lbnQiIElzRm9yd2FyZD0iZmFsc2UiPm5zPTE7cz1BR0VOVC5EQVRBU09VUkNFUzwvUmVmZXJlbmNlcz4KICAgICAgICAgICAgPFJlZmVyZW5jZSBSZWZlcmVuY2VUeXBlPSJIYXNUeXBlRGVmaW5pdGlvbiI+bnM9MTtzPU9iamVjdFR5cGVzLkFUVklTRS5EYXRhc291cmNlLk9wY1VhPC9SZWZlcmVuY2VzPgogICAgICAgICAgICA8UmVmZXJlbmNlZSBSZWZlcmVuY2VUeXBlPSJIYXNQcm9wZXJ0eSI+bnM9MTtzPUFHRU5ULkRBVEFTT1VSQ0VTLlBMQ19TN18xNTAwLnVybDwvUmVmZXJlbmNlPgogICAgICAgICAgICA8UmVmZXJlbmNlIFJlZmVyZW5jZVR5cGU9Ikhhc1Byb3BlcnR5Ij5ucz0xO3M9QUdFTlQuREFUQVNPVVJDRVMuUExDX1M3XzE1MDAuYWN0aXZlPC9SZWZlcmVuY2U+CiAgICAgICAgPC9SZWZlcmVuY2VzPgogICAgPC9VQU9iamVjdD4KICAgIDxVQVZhcmlhYmxlIE5vZGVJZD0ibnM9MTtzPUFHRU5ULkRBVEFTT1VSQ0VTLlBMQ19TN18xNTAwLnVybCIgQnJvd3NlTmFtZT0iMTp1cmwiIFBhcmVudE5vZGVJZD0ibnM9MTtzPUFHRU5ULkRBVEFTT1VSQ0VTLlBMQ19TN18xNTAwIiBEYXRhVHlwZT0iU3RyaW5nIj4KICAgICAgICA8RGlzcGxheU5hbWUgTG9jYWxlPSJlbiI+dXJsPC9EaXNwbGF5TmFtZT4KICAgICAgICA8UmVmZXJlbmNlcz4KICAgICAgICAgICAgPFJlZmVyZW5jZSBSZWZlcmVuY2VUeXBlPSJIYXNUeXBlRGVmaW5pdGlvbiI+UHJvcGVydHlUeXBlPC9SZWZlcmVuY2U+CiAgICAgICAgICAgIDxSZWZlcmVuY2UgUmVmZXJlbmNlVHlwZT0iSGFzUHJvcGVydHkiIElzRm9yd2FyZD0iZmFsc2UiPm5zPTE7cz1BR0VOVC5EQVRBU09VUkNFUy5QTENfUzdfMTUwMDwvUmVmZXJlbmNlPgogICAgICAgIDwvUmVmZXJlbmNlcz4KICAgICAgICA8VmFsdWU+CiAgICAgICAgICAgIDx1YXg6U3RyaW5nPm9wYy50Y3A6Ly8xOTIuMTY4LjEwMC43MTo0ODQwPC91YXg6U3RyaW5nPgogICAgICAgIDwvVmFsdWU+CiAgICA8L1VBVmFyaWFibGU+CiAgICA8VUFWYXJpYWJsZSBOb2RlSWQ9Im5zPTE7cz1BR0VOVC5EQVRBU09VUkNFUy5QTENfUzdfMTUwMC5hY3RpdmUiIEJyb3dzZU5hbWU9IjE6YWN0aXZlIiBQYXJlbnROb2RlSWQ9Im5zPTE7cz1BR0VOVC5EQVRBU09VUkNFUy5QTENfUzdfMTUwMCIgRGF0YVR5cGU9IkJvb2xlYW4iPgogICAgICAgIDxEaXNwbGF5TmFtZSBMb2NhbGU9ImVuIj5hY3RpdmU8L0Rpc3BsYXlOYW1lPgogICAgICAgIDxSZWZlcmVuY2VzPgogICAgICAgICAgICA8UmVmZXJlbmNlIFJlZmVyZW5jZVR5cGU9Ikhhc1R5cGVEZWZpbml0aW9uIj5Qcm9wZXJ0eVR5cGU8L1JlZmVyZW5jZT4KICAgICAgICAgICAgPFJlZmVyZW5jZSBSZWZlcmVuY2VUeXBlPSJIYXNQcm9wZXJ0eSIgSXNGb3J3YXJkPSJmYWxzZSI+bnM9MTtzPUFHRU5ULkRBVEFTT1VSQ0VTLlBMQ19TN18xNTAwPC9SZWZlcmVuY2U+CiAgICAgICAgPC9SZWZlcmVuY2VzPgogICAgICAgIDxWYWx1ZT4KICAgICAgICAgICAgPHVheDpCb29sZWFuPnRydWU8L3VheDpCb29sZWFuPgogICAgICAgIDwvVmFsdWU+CiAgICA8L1VBVmFyaWFibGU+CjwvVUFOb2RlU2V0Pgo=
+<?xml version="1.0" encoding="UTF-8" ?>
+<UANodeSet xmlns="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd" xmlns:uax="http://opcfoundation.org/UA/2008/02/Types.xsd">
+    <Extensions>
+        <atvise Version="3.14"/>
+    </Extensions>
+    <NamespaceUris>
+        <Uri>http://www.atvise.com/atServer/UA/</Uri>
+    </NamespaceUris>
+    <Aliases>
+        <Alias Alias="Boolean">i=1</Alias>
+        <Alias Alias="String">i=12</Alias>
+        <Alias Alias="HasComponent">i=47</Alias>
+        <Alias Alias="HasProperty">i=46</Alias>
+        <Alias Alias="HasTypeDefinition">i=40</Alias>
+        <Alias Alias="PropertyType">i=68</Alias>
+    </Aliases>
+    <UAObject NodeId="ns=1;s=AGENT.DATASOURCES.PLC_S7_1500" BrowseName="1:PLC_S7_1500">
+        <DisplayName Locale="en">PLC_S7_1500</DisplayName>
+        <Description Locale="en">OPC UA Connection to Siemens PLC at 192.168.100.71</Description>
+        <References>
+            <Reference ReferenceType="HasComponent" IsForward="false">ns=1;s=AGENT.DATASOURCES</Reference>
+            <Reference ReferenceType="HasTypeDefinition">ns=1;s=ObjectTypes.ATVISE.Datasource.OpcUa</Reference>
+            <Reference ReferenceType="HasProperty">ns=1;s=AGENT.DATASOURCES.PLC_S7_1500.url</Reference>
+            <Reference ReferenceType="HasProperty">ns=1;s=AGENT.DATASOURCES.PLC_S7_1500.active</Reference>
+        </References>
+    </UAObject>
+    <UAVariable NodeId="ns=1;s=AGENT.DATASOURCES.PLC_S7_1500.url" BrowseName="1:url" ParentNodeId="ns=1;s=AGENT.DATASOURCES.PLC_S7_1500" DataType="String">
+        <DisplayName Locale="en">url</DisplayName>
+        <References>
+            <Reference ReferenceType="HasTypeDefinition">PropertyType</Reference>
+            <Reference ReferenceType="HasProperty" IsForward="false">ns=1;s=AGENT.DATASOURCES.PLC_S7_1500</Reference>
+        </References>
+        <Value>
+            <uax:String>opc.tcp://192.168.100.71:4840</uax:String>
+        </Value>
+    </UAVariable>
+    <UAVariable NodeId="ns=1;s=AGENT.DATASOURCES.PLC_S7_1500.active" BrowseName="1:active" ParentNodeId="ns=1;s=AGENT.DATASOURCES.PLC_S7_1500" DataType="Boolean">
+        <DisplayName Locale="en">active</DisplayName>
+        <References>
+            <Reference ReferenceType="HasTypeDefinition">PropertyType</Reference>
+            <Reference ReferenceType="HasProperty" IsForward="false">ns=1;s=AGENT.DATASOURCES.PLC_S7_1500</Reference>
+        </References>
+        <Value>
+            <uax:Boolean>true</uax:Boolean>
+        </Value>
+    </UAVariable>
+</UANodeSet>
