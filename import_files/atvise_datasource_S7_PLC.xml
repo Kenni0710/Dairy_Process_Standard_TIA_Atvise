@@ -1,1 +1,14 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGF0dmlzZSB2ZXJzaW9uPSIzLjkuMCI+CiAgICA8bm9kZXM+CiAgICAgICAgPG5vZGUgYWRkcmVzcz0iQUdFTlQuT0JKRUNUUy5QTENfUzdfMTUwMCIgYmFzZT0iT2JqZWN0VHlwZXMuQVRWSVNFLkRhdGFzb3VyY2UuT3BjVWEiPgogICAgICAgICAgICA8cGFyYW1ldGVyIG5hbWU9InVybCIgdmFsdWU9Im9wYy50Y3A6Ly8xOTIuMTY4LjEwMC43MTo0ODQwIiAvPgogICAgICAgICAgICA8cGFyYW1ldGVyIG5hbWU9InNlY3VyaXR5UG9saWN5IiB2YWx1ZT0iaHR0cDovL29wY2ZvdW5kYXRpb24ub3JnL1VBL1NlY3VyaXR5UG9saWN5I05vbmUiIC8+CiAgICAgICAgICAgIDxwYXJhbWV0ZXIgbmFtZT0ic2VjdXJpdHlNb2RlIiB2YWx1ZT0iMSIgLz4gPCEtLSAxID0gTm9uZSAtLT4KICAgICAgICAgICAgPHBhcmFtZXIgbmFtZT0iYXV0aGVudGljYXRpb24iIHZhbHVlPSIxIiAvPiA8IS0tIDEgPSBBbm9ueW1vdXMgLS0+CiAgICAgICAgICAgIDxwYXJhbWV0ZXIgbmFtZT0iYWN0aXZlIiB2YWx1ZT0idHJ1ZSIgLz4KICAgICAgICAgICAgPHBhYXJhbWV0ZXIgbmFtZT0icmV0cnlJbnRlcnZhbCIgdmFsdWU9IjUwMDAiIC8+CiAgICAgICAgICAgIDxwYXJhbWV0ZXIgbmFtZT0iZGVzY3JpcHRpb24iIHZhbHVlPSJPUEMgVUEgQ29ubmVjdGlvbiB0byBTaWVtZW5zIFBMQyBhdCAxOTIuMTY4LjEwMC43MSIgLz4KICAgICAgICA8L25vZGU+CiAgICA8L25vZGVzPgo8L2F0dmlzZT4K
+<?xml version="1.0" encoding="UTF-8"?>
+<atvise version="3.9.0">
+    <nodes>
+        <node address="AGENT.OBJECTS.PLC_S7_1500" base="ObjectTypes.ATVISE.Datasource.OpcUa">
+            <parameter name="url" value="opc.tcp://192.168.100.71:4840" />
+            <parameter name="securityPolicy" value="http://opcfoundation.org/UA/SecurityPolicy#None" />
+            <parameter name="securityMode" value="1" />
+            <parameter name="authentication" value="1" />
+            <parameter name="active" value="true" />
+            <parameter name="retryInterval" value="5000" />
+            <parameter name="description" value="OPC UA Connection to Siemens PLC at 192.168.100.71" />
+        </node>
+    </nodes>
+</atvise>

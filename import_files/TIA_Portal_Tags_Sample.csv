@@ -1,1 +1,6 @@
-Ik5hbWUiLCJQYXRoIiwiRGF0YVR5cGUiLCJMb2dpY2FsQWRkcmVzcyIsIkNvbW1lbnQiCiJWTFZfTWlsa19JbiIsIkhNSV9EYXRhIiwiQm9vbCIsIiVEQjEwMC5EQlgwLjAiLCJNaWxrIEludGFrZSBWYWx2ZSAoS0VBIFN0YW5kYXJkKSIKIlZMVl9XYXRlcl9JbiIsIkhNSV9EYXRhIiwiQm9vbCIsIiVEQjEwMC5EQlgwLjEiLCJXYXRlciBJbnRha2UgVmFsdmUgKEtFQSBTdGFuZGFyZCkiCiJQTVBfRmVlZCIsIkhNSV9EYXRhIiwiUmVhbCIsIiVEQjEwMC5EQkQyLjAiLCJGZWVkIFB1bXAgU3BlZWQgKDAtMTAwJSkiCiJUVF9QYXN0ZXVyX091dCIsIkhNSV9EYXRhIiwiUmVhbCIsIiVEQjEwMC5EQkQ2LjAiLCJQYXN0ZXVyaXplciBPdXRsZXQgVGVtcCAoU3RhbmRhcmQ6IDc1LjBDKSIKIkZUX0Zsb3dfUmF0ZSIsIkhNSV9EYXRhIiwiUmVhbCIsIiVEQjEwMC5EQkQxMC4wIiwiQ3VycmVudCBGbG93IFJhdGUiCg==
+"Name","Path","DataType","LogicalAddress","Comment"
+"VLV_Milk_In","HMI_Data","Bool","%DB100.DBX0.0","Milk Intake Valve (KEA Standard)"
+"VLV_Water_In","HMI_Data","Bool","%DB100.DBX0.1","Water Intake Valve (KEA Standard)"
+"PMP_Feed","HMI_Data","Real","%DB100.DBD2.0","Feed Pump Speed (0-100%)"
+"TT_Pasteur_Out","HMI_Data","Real","%DB100.DBD6.0","Pasteurizer Outlet Temp (Standard: 75.0C)"
+"FT_Flow_Rate","HMI_Data","Real","%DB100.DBD10.0","Current Flow Rate"
