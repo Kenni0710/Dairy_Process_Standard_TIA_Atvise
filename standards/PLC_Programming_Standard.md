@@ -1,1 +1,17 @@
-IyBQTEMgUHJvZ3JhbW1pbmcgU3RhbmRhcmQgLSBLRUEgQ29uc3VsdAoKIyMgMS4gT3ZlcnZpZXcKVGhpcyBzdGFuZGFyZCBkZWZpbmVzIHRoZSBwcm9ncmFtbWluZyBwcmluY2lwbGVzIGZvciBpbmR1c3RyaWFsIGF1dG9tYXRpb24gcHJvamVjdHMsIHNwZWNpZmljYWxseSB0YXJnZXRpbmcgU2llbWVucyBUSUEgUG9ydGFsIGFuZCBBdHZpc2UgU0NBREEgc3lzdGVtcy4gSXQgaXMgaGVhdmlseSBpbmZsdWVuY2VkIGJ5IEFQViBhbmQgU1BYIHN0YW5kYXJkcy4KCiMjIDIuIENvcmUgUHJpbmNpcGxlcwotICoqTW9kdWxhcml0eSoqOiBVc2UgRnVuY3Rpb24gQmxvY2tzIChGQikgZm9yIGFsbCByZXBldGl0aXZlIGVxdWlwbWVudCAoVmFsdmVzLCBQdW1wcywgTW90b3JzKS4KLSAqKk5hbWluZyBDb252ZW50aW9uKio6IENhbWVsQ2FzZSBvciBzbmFrZV9jYXNlIHdpdGggY2xlYXIgcHJlZml4ZXMgKGUuZy4sIGBWTFZfYCBmb3IgVmFsdmVzLCBgUE1QX2AgZm9yIFB1bXBzKS4KLSAqKkludGVyZmFjZSoqOiBPUEMtVUEgaXMgdGhlIHByaW1hcnkgY29tbXVuaWNhdGlvbiBwcm90b2NvbCBiZXR3ZWVuIFBMQyBhbmQgU0NBREEuCgojIyAzLiBEYXRhIEhhbmRsaW5nCi0gKipHbG9iYWwgREJzKio6IEFsbCBITUkgZGF0YSBzaG91bGQgYmUgY29sbGVjdGVkIGluIGRlZGljYXRlZCBHbG9iYWwgRGF0YSBCbG9ja3MgKGUuZy4sIGBITUlfRGF0YWApLgotICoqU3RhbmRhcmQgVGVtcGVyYXR1cmUqKjogRm9yIFBhc3RldXJpemVycyAoZS5nLiwgUGFzdGV1ciAyKSwgdGhlIGRlZmF1bHQgbW9uaXRvcmluZyB0ZW1wZXJhdHVyZSBpcyBzZXQgdG8gKio3NcKwQyoqIGZvciBmbG93IGRpdmVyc2lvbiB0ZXN0cyB1bmxlc3MgcmVjaXBlLWRyaXZlbi4KCiMjIDQuIFNhZmV0eSAmIFN0YW5kYXJkcwotIEFkaGVyZSB0byBDQ1AgKENyaXRpY2FsIENvbnRyb2wgUG9pbnQpIHN0YW5kYXJkcyBmb3IgZm9vZC9iZXZlcmFnZSBwcm9qZWN0cy4KLSBObyBkaXJlY3QgZG93bmxvYWRpbmcgb2YgRGF0YSBCbG9ja3MgYXR0YWNoZWQgdG8gcHJvZ3JhbSBmdW5jdGlvbnMgd2l0aG91dCBlbnN1cmluZyBwbGFudCBzYWZldHkuCg==
+# PLC Programming Standard - KEA Consult
+
+## 1. Overview
+This standard defines the programming principles for industrial automation projects, specifically targeting Siemens TIA Portal and Atvise SCADA systems. It is heavily influenced by APV and SPX standards.
+
+## 2. Core Principles
+- **Modularity**: Use Function Blocks (FB) for all repetitive equipment (Valves, Pumps, Motors).
+- **Naming Convention**: CamelCase or snake_case with clear prefixes (e.g., `VLV_` for Valves, `PMP_` for Pumps).
+- **Interface**: OPC-UA is the primary communication protocol between PLC and SCADA.
+
+## 3. Data Handling
+- **Global DBs**: All HMI data should be collected in dedicated Global Data Blocks (e.g., `HMI_Data`).
+- **Standard Temperature**: For Pasteurizers (e.g., Pasteur 2), the default monitoring temperature is set to **75°C** for flow diversion tests unless recipe-driven.
+
+## 4. Safety & Standards
+- Adhere to CCP (Critical Control Point) standards for food/beverage projects.
+- No direct downloading of Data Blocks attached to program functions without ensuring plant safety.

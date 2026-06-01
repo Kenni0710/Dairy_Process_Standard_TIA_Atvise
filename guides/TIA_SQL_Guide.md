@@ -1,1 +1,12 @@
-IyBUSUEgUG9ydGFsICYgU1FMIEludGVncmF0aW9uCgojIyAxLiBUSUEgUG9ydGFsIFNldHVwCi0gVXNlICoqVElBIFBvcnRhbCBWMTkqKiBmb3IgdGhlIGxhdGVzdCBmZWF0dXJlcy4KLSBJbXBsZW1lbnQgc3RhbmRhcmQgYmxvY2tzIGZvciBlcXVpcG1lbnQgY29udHJvbC4KCiMjIDIuIFNRTCBJbnRlZ3JhdGlvbgotIFVzZSB0aGUgKipMU1FMKiogKExpYnJhcnkgZm9yIFNRTCkgZm9yIFNpZW1lbnMgdG8gY29tbXVuaWNhdGUgZGlyZWN0bHkgd2l0aCBTUUwgZGF0YWJhc2VzIChlLmcuLCBNaWNyb3NvZnQgU1FMIFNlcnZlciBvciBNeVNRTCkuCi0gKipEYXRhIExvZ2dpbmcqKjogU2V0IHVwIGEgYmFja2dyb3VuZCBzZXJ2aWNlIHRvIHB1c2ggZGF0YSBmcm9tIFBMQyBHbG9iYWwgREJzIHRvIFNRTCB0YWJsZXMuCgojIyAzLiBBdHZpc2UgSGlzdG9yaWFuCi0gQ29uZmlndXJlIHRoZSBBdHZpc2UgSGlzdG9yaWFuIHRvIGxvZyBkYXRhIHRvIGFuIGludGVybmFsIG9yIGV4dGVybmFsIFNRTCBkYXRhYmFzZSBmb3IgbG9uZy10ZXJtIHN0b3JhZ2UgYW5kIHJlcG9ydGluZy4K
+# TIA Portal & SQL Integration
+
+## 1. TIA Portal Setup
+- Use **TIA Portal V19** for the latest features.
+- Implement standard blocks for equipment control.
+
+## 2. SQL Integration
+- Use the **LSQL** (Library for SQL) for Siemens to communicate directly with SQL databases (e.g., Microsoft SQL Server or MySQL).
+- **Data Logging**: Set up a background service to push data from PLC Global DBs to SQL tables.
+
+## 3. Atvise Historian
+- Configure the Atvise Historian to log data to an internal or external SQL database for long-term storage and reporting.

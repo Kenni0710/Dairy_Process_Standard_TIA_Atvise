@@ -1,1 +1,18 @@
-IyBBdHZpc2UgU0NBREEgLSBTdGVwLWJ5LVN0ZXAgU2V0dXAKCiMjIDEuIEluc3RhbGxhdGlvbgpBdHZpc2UgY2FuIGJlIGluc3RhbGxlZCBvbjoKLSAqKldpbmRvd3MqKjogU3RhbmRhcmQgaW5zdGFsbGVyLgotICoqTGludXgqKjogSW5kdXN0cmlhbCBQQ3Mgb3Ig0LrQu9Cw0YHRgdC4aXNrZSBQQ3MuCgojIyAyLiBQcm9qZWN0IENyZWF0aW9uCi0gQ3JlYXRlIGEgbmV3IHByb2plY3QgaW4gdGhlIEF0dmlzZSBidWlsZGVyLgotIFVzZSAqKlB1cmUgV2ViIFRlY2hub2xvZ3kqKjogQWxsIEhNSXMgYXJlIEhUTUw1L1NWRyBiYXNlZC4KCiMjIDMuIENvbm5lY3Rpdml0eSAoT1BDLVVBKQotIENvbm5lY3QgQXR2aXNlIHRvIHRoZSBQTEMgdmlhIE9QQy1VQS4KLSBVc2UgdGhlICoqT1BDLVVBIEd1aWRlKiogKFBJLTUwOTgpIGZvciBkZXRhaWxlZCBpbnRlcmZhY2Ugc2V0dGluZ3MuCgojIyA0LiBHcmFwaGljcyBEZXNpZ24KLSBGb2xsb3cgIkJlc3QgUHJhY3RpY2VzIGluIEhNSS9TQ0FEQSBTY3JlZW4gRGVzaWduIi4KLSBLZWVwIGhpZ2gtY29udHJhc3QsIGNsZWFyIGluZm9ybWF0aW9uIGhpZXJhcmNoeS4K
+# Atvise SCADA - Step-by-Step Setup
+
+## 1. Installation
+Atvise can be installed on:
+- **Windows**: Standard installer.
+- **Linux**: Industrial PCs or классиске PCs.
+
+## 2. Project Creation
+- Create a new project in the Atvise builder.
+- Use **Pure Web Technology**: All HMIs are HTML5/SVG based.
+
+## 3. Connectivity (OPC-UA)
+- Connect Atvise to the PLC via OPC-UA.
+- Use the **OPC-UA Guide** (PI-5098) for detailed interface settings.
+
+## 4. Graphics Design
+- Follow "Best Practices in HMI/SCADA Screen Design".
+- Keep high-contrast, clear information hierarchy.
